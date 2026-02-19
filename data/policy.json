@@ -1,0 +1,18 @@
+{
+  "as_of": "2026-02-15T00:00:00Z",
+  "ignore_future_opened": true,
+  "grace_hours": 2,
+  "sla_hours": {
+    "SEV1": 24,
+    "SEV2": 72,
+    "SEV3": 168
+  },
+  "severity_weight": {
+    "SEV1": 50,
+    "SEV2": 20,
+    "SEV3": 5
+  },
+  "blocked_bonus": 40,
+  "warn_threshold": 60,
+  "recent_window_days": 14
+}
