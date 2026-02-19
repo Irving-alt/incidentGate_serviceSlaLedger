@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "services": [
+    { "service": "auth-api",            "tier": "T0", "owner": "security-platform" },
+    { "service": "billing-svc",         "tier": "T0", "owner": "finops" },
+    { "service": "search-core",         "tier": "T1", "owner": "discovery" },
+    { "service": "catalog",             "tier": "T1", "owner": "commerce" },
+    { "service": "webapp",              "tier": "T2", "owner": "growth-web" },
+    { "service": "analytics-pipeline",  "tier": "T2", "owner": "data-eng" }
+  ]
+}
