@@ -1,0 +1,18 @@
+IncidentID,Service,Severity,OpenedAt,ResolvedAt,Title
+INC-101,auth-api,SEV1,2026-02-13T00:30:00Z,,Token refresh outage
+INC-102,auth-api,sev2,2026-02-12T00:00:00Z,2026-02-14T00:00:00Z,Auth latency spike
+INC-103,auth-api,SEV3,2026-02-14T01:00:00Z,2026-02-15T01:00:00Z,Metrics backfill delay
+INC-201,billing-svc,SEV2,2026-02-11T22:00:00Z,,Invoice batch delay
+INC-202,billing-svc,SEV3,2026-02-08T00:00:00Z,2026-02-14T23:00:00Z,Receipt rendering issue
+INC-203,billing-svc,SEV2,2026-02-14T20:00:00Z,,Payment provider timeout
+INC-301,search-core,SEV2,2026-02-10T00:00:00Z,,Index shard stuck
+INC-302,search-core,SEV2,2026-02-13T00:00:00Z,,Autocomplete degradation
+INC-303,search-core,SEV3,2026-02-07T00:00:00Z,2026-02-12T00:00:00Z,Query cache churn
+INC-401,catalog,SEV3,2026-01-20T00:00:00Z,,Catalog sync backlog
+INC-403,catalog,SEV2,2026-02-01T00:00:00Z,,Price rule regression
+INC-501,webapp,SEV3,2026-02-14T00:00:00Z,,Minor UI glitch
+INC-502,webapp,SEV3,2026-02-06T00:00:00Z,,CDN cache inconsistency
+INC-503,webapp,SEV2,2026-02-04T00:00:00Z,2026-02-10T00:00:00Z,Checkout flicker
+INC-601,analytics-pipeline,SEV1,2026-02-14T23:00:00Z,,Streaming lag
+INC-602,analytics-pipeline,SEV2,2026-02-05T00:00:00Z,,ETL retries
+INC-603,analytics-pipeline,SEV2,2026-02-05T00:00:00Z,2026-03-01T00:00:00Z,Backfill job overrun
